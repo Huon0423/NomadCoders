@@ -4,28 +4,28 @@
 
 #login-form {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#login-form :first-child{
-    color: white;
-    border: none;
-    border-bottom: 1px solid white;
-    outline: none;
-    background: transparent;
+#login-form :first-child {
+    font-size: large;
 }
 
 #greeting {
     color: white;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #clock {
     color: white;
     font-size: 6em;
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -33,36 +33,60 @@
 #quote {
     color: white;
     position: absolute;
-    left: 10px;
-    bottom: 2px;
+    left: 1%;
+    bottom: 1%;
 }
 
 body {
+    margin: 0;
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.4);
     background-blend-mode: multiply;
 }
 
 #todo-form {
     position: absolute;
-    top: 55%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#todo-form input {
+#todo-list {
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+    transform: translate(-50%, 0%);
+}
+
+input {
     color: white;
     border: none;
     border-bottom: 1px solid white;
     outline: none;
     background: transparent;
+    text-align: center;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+button {
+    color: red;
+    background-color: transparent;
+    border: transparent;
 }
 
 #weather {
     color: white;
     position: absolute;
-    right: 3px;
-    top: 2px;
+    right: 1%;
+    top: 1%;
 }
