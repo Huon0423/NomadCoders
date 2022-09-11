@@ -7,4 +7,4 @@ const body = document.body;
 
 const url = "C:/workspace/VisualStudio_Workspace/NomadCoders/MakingChromeApp/img" + `/${chosenImage}`;
 
-body.style.backgroundImage = `url(${url})`;
+body.style.backgroundImage = `url(${url})`; //test
